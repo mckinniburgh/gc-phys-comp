@@ -2,11 +2,13 @@
 
 developed for:
 
-+[Introduction to Physical Computing with Arduino Workshop
-November 9th, 6:30-8:30pm](https://gcdi.commons.gc.cuny.edu/workshops/)
-by Mary Catherine Kinniburgh
+##[Introduction to Physical Computing with Arduino Workshop
 
-*This tutorial is adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial I designed for #dhpraxis2016.
+November 9th, 6:30-8:30pm](https://gcdi.commons.gc.cuny.edu/workshops/)
+
+Instructors: Mary Catherine Kinniburgh + Jojo Karlin
+
+*Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial I designed for #dhpraxis2016.
 
 *Thanks to Tiffany Chan for her inspiring and helpful [Arduino Tutorial](https://github.com/uvicmakerlab/dhsi2016/blob/master/ArduinoNotes.md) for [Digital Humanities Summer Institute 2016](http://www.dhsi.org/index.php), in Jentery Sayers' Physical Computing and Desktop Fabrication Class. 
 
@@ -21,17 +23,17 @@ Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, 
 Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, workshops, and consults for all levels and disciplines.
 
 #Overview
-1. [Why Make?](https://github.com/mckinniburgh/QuickStartPhysComp/blob/master/QuickStart_PhysComp.md#why-make)
+1. [Why Make?](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#why-make)
 
-   +[Key Term: Maker Space]()
+   +[Key Term: Maker Space](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-maker-space)
    
-   +[Key Term: Physical Computing]()
+   +[Key Term: Physical Computing](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-physical-computing)
    
-2. [Basic Vocabulary]()
+2. [Basic Vocabulary](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#basic-vocabulary)
 
-3. [Setting up Arduino]()
+3. [Setting up Arduino](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#setting-up-arduino)
 
-4. [Activity: Arduino LED]()
+4. [Activity: Arduino LED](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-led)
 
 5. [Activity: Using Resistors] ()
 
@@ -132,10 +134,6 @@ Then, place a resistor with one "leg" in the (-) power rail of the breadboard, a
 
 Next, connect another wire to the *cathode* (short side) of the LED, and place this in pin 8 on the Arduino board.
 
-Plug the circuit in!
-
-####Without running any code, you should have a lit LED!
-
 ##**The Code**
 
 Arduino has ready-to-go code, which we'll use to get started today. You can open their examples and then edit the code as you like. 
@@ -155,15 +153,23 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 
 ##Bonus points: change the speed of the LED blinking by adjusting the delay value.     
 
-##Bonus points: experiment with rewiring the circuit *without* the resistor and notice what happens. 
+##LED Bonus Round: Using Resistors
 
-##Double Bonus: Arduino Buzzer
+Experiment with rewiring the circuit *without* the resistor and notice what happens. 
+
+##Activity: Arduino toneMelody
 
 1. Go to `File --> Examples --> 02.Digital --> toneMelody`
 
 2. Open the `toneMelody` sketch and check out the code. 
  
 3. In your supply kit, you'll find a small piezo buzzer. Wire the circuit using the piezo instead of the LED, using the same diagram above. 
+
+##Activity: Add a Button!
+
+Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED or piezo on and off. 
+
+
 
 #To keep on learning...
 
