@@ -35,9 +35,11 @@ Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, worksh
 
 4. [Activity: Arduino LED](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-led)
 
-5. [Activity: Using Resistors] ()
+5. [LED Bonus Round: Using Resistors](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#led-bonus-round-using-resistors)
 
-6. [Activity: Arduino toneMelody]()
+6. [Activity: Arduino toneMelody](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-tonemelody)
+
+7. [Activity: Add a Button!](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-add-a-button)
 
 ##Why Make?
 
@@ -151,13 +153,13 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
     
 6. **Upload** your sketch and watch the LED blink!
 
-##Bonus points: change the speed of the LED blinking by adjusting the delay value.     
+####Bonus points: change the speed of the LED blinking by adjusting the delay value.     
 
-##LED Bonus Round: Using Resistors
+#LED Bonus Round: Using Resistors
 
 Experiment with rewiring the circuit *without* the resistor and notice what happens. 
 
-##Activity: Arduino toneMelody
+#Activity: Arduino toneMelody
 
 1. Go to `File --> Examples --> 02.Digital --> toneMelody`
 
@@ -165,7 +167,7 @@ Experiment with rewiring the circuit *without* the resistor and notice what happ
  
 3. In your supply kit, you'll find a small piezo buzzer. Wire the circuit using the piezo instead of the LED, using the same diagram above. 
 
-##Activity: Add a Button!
+#Activity: Add a Button!
 
 Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED or piezo on and off. 
 
