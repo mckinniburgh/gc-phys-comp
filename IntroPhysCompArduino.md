@@ -2,11 +2,11 @@
 
 developed for:
 
-##[Introduction to Physical Computing with Arduino Workshop
+##[Introduction to Physical Computing with Arduino Workshop](https://gcdi.commons.gc.cuny.edu/workshops/)
 
-November 9th, 6:30-8:30pm](https://gcdi.commons.gc.cuny.edu/workshops/)
+November 9th, 6:30-8:30pm
 
-Instructors: Mary Catherine Kinniburgh + Jojo Karlin
+Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
 
 *Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial I designed for #dhpraxis2016.
 
