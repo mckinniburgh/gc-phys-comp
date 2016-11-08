@@ -24,20 +24,29 @@ Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, worksh
 
 #Overview
 
-Workshop Goals:
+##Workshop Goals:
 
-In this workshop, we will:
+**In this workshop, we will:**
+
+* Learn about maker spaces, critical making, and physical computing practices in higher education and beyond
+
+* Become familiar with Arduino's vocabulary and basic setup
+
+* Build a basic circuit and run a basic program on the Arduino
+
+* Add complexity to our circuits to begin using more types of sensors and actuators
+
+* ...and conceive of further possibilities for physical computing-style projects. 
 
 
 1. [Why Make?](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#why-make)
 
    +[Key Term: Maker Space](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-maker-space)
    
-   +[Key Term: Critical Making]()
+   +[Key Term: Critical Making](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-critical-making)
    
    +[Key Term: Physical Computing](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-physical-computing)
    
-
    
 2. [Basic Vocabulary](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#basic-vocabulary)
 
@@ -121,6 +130,10 @@ Examples:
 + *Ground:* the reference point from which voltage is measured. 
 
 + *Breadboard:* a tool for solderless prototyping that makes rewiring simple. 
+
++ *Sensor*:
+
++ *Actuator*:
 
 	For a more thorough introduction to breadboards, see: [https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 	
@@ -215,8 +228,26 @@ You have another type of resistor in your supply bag--give this one a shot and s
 
 Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED or piezo on and off. 
 
+#Quick recap:
 
+##Revisiting Workshop Goals:
+
+**In this workshop, we:**
+
+* Learned about maker spaces, critical making, and physical computing practices in higher education and beyond
+
+* Became familiar with Arduino's vocabulary and basic setup
+
+* Built a basic circuit and ran a basic program on the Arduino
+
+* Added complexity to our circuits to prepare for accommodating more types of sensors and actuators
+
+* ...and considered further possibilities for physical computing-style projects. 
 
 #To keep on learning...
 
 Join us at [Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/) at the [GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/), located in the [GC Digital Scholarship Lab](https://gcdsl.commons.gc.cuny.edu/), Room 7414 at The Graduate Center, CUNY. We have Arduinos, a variety of sensors, LEDs, piezos, and other physical computing equipment for experimenting and project prototyping. All levels and perspectives welcome! [Contact us](https://docs.google.com/forms/d/e/1FAIpQLSeLwRoCkz5NPPLh0vYMOQPqyA5H3fbWn5ga2-F8M-pQvrg5IA/viewform?c=0&w=1) for more information. 
+
+#One more thing: we want your feedback!
+
+##Please fill out our feedback form [here](https://docs.google.com/forms/d/e/1FAIpQLSfNW2FJXd236V3zCtJXHLiJrKETEXqVms-qTxHaYN_h8GCA_A/viewform). Thank you for coming to our workshop!
