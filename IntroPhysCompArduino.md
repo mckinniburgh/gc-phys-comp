@@ -23,11 +23,21 @@ Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, 
 Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, workshops, and consults for all levels and disciplines.
 
 #Overview
+
+Workshop Goals:
+
+In this workshop, we will:
+
+
 1. [Why Make?](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#why-make)
 
    +[Key Term: Maker Space](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-maker-space)
    
+   +[Key Term: Critical Making]()
+   
    +[Key Term: Physical Computing](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#key-term-physical-computing)
+   
+
    
 2. [Basic Vocabulary](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#basic-vocabulary)
 
@@ -51,7 +61,28 @@ any physical space that offers access to hands-on equipment to produce prototype
 
 _What separates a maker space from a production line (although some large-scale maker spaces have this capacity) is that maker spaces are where you go to *experiment, prototype, and think* with materials_ 
 
++[NYDesigns](http://nydesigns.org/) is modeled on a business incubator/start-up model for industry research. 
+
++[Maker Lab in the Humanities, University of Victoria](http://maker.uvic.ca/twoyears/) is a research-focused lab that “prototypes the past” in order to historicize technologies and their developmental arcs. 
+
++[Critical Making Lab, University of Toronto](http://criticalmaking.com/about/), argue for “critical making” as a way to reflect critically on questions of technology, society, and culture in the process of making.
+
++[Makerspace at U.Va](http://scholarslab.org/makerspace/) acts as an educational outreach environment that offers workshops, drop-in hours, and consultations designed to connect students with resources. 
+
+Antecedents to the university makerspace:
+
+[hackerspace](http://hackerspaces.org/): the maker space’s more programming-focused counterpart (or predecessor, depending on how you view it)
+
+[“hacking”](https://en.wikipedia.org/wiki/Hacker_culture): in a positive sense, alters technologies for creative uses and greater accessibility. This led to early hackerspaces incorporating circuitry, microcomputing platforms, and other hardware.
+
 ####The process, rather than the product, defines the space.
+
+###Key term: **Critical Making**
+
+Research that uses the act of 'making' (as in maker spaces) to critically reflect on the materials, social implications, and cultural factors implicit in the process of building digital projects.
+
+[Examples of critical making projects from University of California Berkeley](http://make.berkeley.edu/spring-2016/)
+	-largely theoretical; ways to think about technology
 
 ###Key term: **Physical Computing**
 
@@ -64,6 +95,16 @@ Physical computing takes “the human body and its capabilities as the starting 
 ![Physical computing feedback loop](https://github.com/mckinniburgh/QuickStartPhysComp/blob/master/images/Physical_computing.svg.png)
 
 *image made by Nevit Dilmen for the physical computing [Wikipedia](https://en.wikipedia.org/wiki/File:Physical_computing.svg) page*
+
+Examples:
+
+-[GPS Jacket](https://learn.adafruit.com/flora-gps-jacket/overview)
+
+-[Beet Box](https://vimeo.com/55658574)
+
+-[Electromagnetic Field Sampler](http://makezine.com/projects/weekend-project-sample-weird-sounds-electromagnetic-fields/)
+
+-[More Examples from Tom Igoe's "Physical Computing's Greatest Hits (and misses)"](http://www.tigoe.net/blog/category/physicalcomputing/176/)
 
 ##Basic Vocabulary
 
@@ -128,7 +169,7 @@ Don't forget to unplug your Arduino as you wire your circuit! This keeps your co
 
 *This circuit was made from [Fritzing](http://fritzing.org/home/)*
 
-Go ahead and make the circuit. You'll take a wire from your *ground*, or the 5V slot on the Arduino board, to the (-) power rail of the breadboard. 
+You'll take a wire from your *ground*, or the 5V slot on the Arduino board, to the (-) power rail of the breadboard. 
 
 Then, place a resistor with one "leg" in the (-) power rail of the breadboard, and the other horizontally in line with the *anode* (long side) of the LED. Make sure the LED has its anode and cathode in different terminal strips (vertically aligned on breadboard)!
 
@@ -157,7 +198,10 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 
 #LED Bonus Round: Using Resistors
 
+Resistors 
 Experiment with rewiring the circuit *without* the resistor and notice what happens. 
+
+You have another type of resistor in your supply bag--give this one a shot and see how it affects your circuit. 
 
 #Activity: Arduino toneMelody
 
