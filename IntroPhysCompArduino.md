@@ -91,6 +91,7 @@ Antecedents to the university makerspace:
 Research that uses the act of 'making' (as in maker spaces) to critically reflect on the materials, social implications, and cultural factors implicit in the process of building digital projects.
 
 [Examples of critical making projects from University of California Berkeley](http://make.berkeley.edu/spring-2016/)
+
 	-largely theoretical; ways to think about technology
 
 ###Key term: **Physical Computing**
@@ -131,11 +132,15 @@ Examples:
 
 + *Breadboard:* a tool for solderless prototyping that makes rewiring simple. 
 
-+ *Sensor*:
-
-+ *Actuator*:
-
 	For a more thorough introduction to breadboards, see: [https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
+	
++ *Sensor*: a device that detects a physical property and records/indicates it. 
+
+-Example: a photocell that measures the amount of light in a room.  
+
++ *Actuator*: a device that responds to the input obtained from the sensor.
+
+-Example: a servo, or moving part--also an LED!
 	
 ##Setting up Arduino
 
@@ -190,6 +195,8 @@ Then, place a resistor with one "leg" in the (-) power rail of the breadboard, a
 
 Next, connect another wire to the *cathode* (short side) of the LED, and place this in pin 8 on the Arduino board.
 
+Especially if you're still getting used to using a breadboard, this overview is very helpful:[https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
+
 ##**The Code**
 
 Arduino has ready-to-go code, which we'll use to get started today. You can open their examples and then edit the code as you like. 
@@ -211,10 +218,14 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 
 #LED Bonus Round: Using Resistors
 
-Resistors 
+Resistors modulate the flow of electricity through a circuit by "resisting" the current, measured in ohms. 
+
+
 Experiment with rewiring the circuit *without* the resistor and notice what happens. 
 
 You have another type of resistor in your supply bag--give this one a shot and see how it affects your circuit. 
+
+
 
 #Activity: Arduino toneMelody
 
