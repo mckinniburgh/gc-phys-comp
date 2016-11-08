@@ -8,17 +8,17 @@ November 9th, 6:30-8:30pm
 
 Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
 
-*Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial I designed for #dhpraxis2016.
+*Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial designed for #dhpraxis2016.
 
 *Thanks to Tiffany Chan for her inspiring and helpful [Arduino Tutorial](https://github.com/uvicmakerlab/dhsi2016/blob/master/ArduinoNotes.md) for [Digital Humanities Summer Institute 2016](http://www.dhsi.org/index.php), in Jentery Sayers' Physical Computing and Desktop Fabrication Class. 
 
 ##GC Resources at a glance:
 
-+[Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/)
+####[Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/)
 
 Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, projects, prototyping, saying hello!
 
-+[GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/)
+####[GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/)
 
 Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, workshops, and consults for all levels and disciplines.
 
