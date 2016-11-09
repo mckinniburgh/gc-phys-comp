@@ -241,7 +241,7 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 
 2. Open the `Blink Sketch` and check out the code. 
 
-3. In `void setup( )` we're going to initialize `pin 8` as our output. Change `LED_BUILTIN" or 13,` depending on your version of Arduino's IDE, to `8`.
+3. In `void setup( )` we're going to initialize `pin 8` as our output. Change `LED_BUILTIN` or `13,` depending on your version of Arduino's IDE, to `8`.
 
 4. In `void loop( )` change `LED_BUILTIN` to `8` as well. 
 
@@ -256,7 +256,6 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 
 Resistors modulate the flow of electricity through a circuit by "resisting" the current, measured in ohms. 
 
-
 Experiment with rewiring the circuit *without* the resistor and notice what happens. 
 
 You have another type of resistor in your supply bag--give this one a shot and see how it affects your circuit. 
@@ -265,11 +264,22 @@ You have another type of resistor in your supply bag--give this one a shot and s
 
 Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED (or piezo) on and off. 
 
+**Supplies**
+
++ Arduino
++ 9 wires
++ 1 LED bulb
++ 1 button
++ Breadboard
++ Resistor
+
 ##The Circuit
 
 This is a fancier one! We're going to hook up the power rails on the breadboard through the ground and 5V pins so anything that we wire to those rails can be powered. We're also going to hook up both sides of the breadboard for the button that spans them. 
 
-![LED Button Diagram]()
+![LED Button Diagram](https://github.com/mckinniburgh/gc-phys-comp/blob/master/Images/LEDButton_bb.png)
+
+*This circuit was made using [Fritzing](http://fritzing.org/home/)*
 
 ##The Code
 
@@ -284,6 +294,18 @@ This is a fancier one! We're going to hook up the power rails on the breadboard 
     
 5. **Upload** your sketch, and press the button to turn the LED on and off. 
 
+#Activity: A Pseudo-Theremin!
+
+For this activity, we'll be following the tutorial on Adafruit's website: [https://learn.adafruit.com/adafruit-arduino-lesson-10-making-sounds/pseudo-theramin](https://learn.adafruit.com/adafruit-arduino-lesson-10-making-sounds/pseudo-theramin)
+
+**Supplies**
+
++ Arduino
++ 9 wires
++ 1 LED bulb
++ 1 button
++ Breadboard
++ Resistor
 
 #Quick recap:
 
