@@ -8,23 +8,11 @@ November 9th, 6:30-8:30pm
 
 Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
 
-*Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial designed for #dhpraxis2016.
+* Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial designed for #dhpraxis2016.
 
-*Thanks to Tiffany Chan for her inspiring and helpful [Arduino Tutorial](https://github.com/uvicmakerlab/dhsi2016/blob/master/ArduinoNotes.md) for [Digital Humanities Summer Institute 2016](http://www.dhsi.org/index.php), in Jentery Sayers' Physical Computing and Desktop Fabrication Class. 
+* Thanks to Tiffany Chan for her inspiring and helpful [Arduino Tutorial](https://github.com/uvicmakerlab/dhsi2016/blob/master/ArduinoNotes.md) for [Digital Humanities Summer Institute 2016](http://www.dhsi.org/index.php), in Jentery Sayers' Physical Computing and Desktop Fabrication Class. 
 
-##GC Resources at a glance:
-
-####[Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/)
-
-Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, projects, prototyping, saying hello!
-
-####[GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/)
-
-Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, workshops, and consults for all levels and disciplines.
-
-#Overview
-
-##Workshop Goals:
+#Workshop Goals
 
 **In this workshop, we will:**
 
@@ -38,6 +26,17 @@ Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, worksh
 
 * ...and conceive of further possibilities for physical computing-style projects. 
 
+##GC Resources at a glance:
+
+####[Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/)
+
+Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, projects, prototyping, saying hello!
+
+####[GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/)
+
+Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, workshops, and consults for all levels and disciplines.
+
+#Overview
 
 1. [Why Make?](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#why-make)
 
@@ -92,7 +91,6 @@ Research that uses the act of 'making' (as in maker spaces) to critically reflec
 
 [Examples of critical making projects from University of California Berkeley](http://make.berkeley.edu/spring-2016/)
 
-	-largely theoretical; ways to think about technology
 
 ###Key term: **Physical Computing**
 
@@ -136,21 +134,21 @@ Examples:
 	
 + *Sensor*: a device that detects a physical property and records/indicates it. 
 
--Example: a photocell that measures the amount of light in a room.  
+     -Example: a photocell that measures the amount of light in a room.  
 
 + *Actuator*: a device that responds to the input obtained from the sensor.
 
--Example: a servo, or moving part--also an LED!
+     -Example: a servo, or moving part--also an LED!
 	
 ##Setting up Arduino
 
-1. Take your Arduino and plug in the USB cable to both the Arduino and your computer.
+* Take your Arduino and plug in the USB cable to both the Arduino and your computer.
 
-2. Open up Arduino IDE on your computer. Look for this logo:
+* Open up Arduino IDE on your computer. Look for this logo:
 
 ![logo](https://github.com/mckinniburgh/QuickStartPhysComp/blob/master/images/Arduino.png "Arduino Logo")
 
-3. Set up board
+* Set up board
 
 Go to `Tools`
 
@@ -158,7 +156,7 @@ Select `Board: Arduino/Genuino Uno.`
 
 This is the type of Arduino we're using today
 
-4. Set up port
+* Set up port
 
 Go to `Tools`
 
@@ -168,6 +166,7 @@ Choose `/dev/cu.usbmodem1411 (Arduino/Genuino Uno)`
 	
 
 Now you're ready to make circuits! 
+
 #Activity: Arduino toneMelody
 
 **Supplies**
@@ -181,7 +180,9 @@ Now you're ready to make circuits!
 
 ![Piezo Buzzer](https://github.com/mckinniburgh/gc-phys-comp/blob/master/Images/PiezoDiagram_bb.png)
 
-*This circuit was made from [Fritzing](http://fritzing.org/home/)*
+*This circuit was made using [Fritzing](http://fritzing.org/home/)*
+
+Don't forget to unplug your Arduino as you wire your circuit! This keeps your computer safe. 
 
 ##The Code
 
@@ -198,6 +199,8 @@ Arduino has ready-to-go code, which we'll use to get started today. You can open
 `void loop( )` repeats a procedure (like a blinking LED, which we'll try next).
 
 There is also a `library`, which allows us to designate the specific tones in our melody. 
+
+Final steps:
 
 4. **Verify** your sketch with the check-mark in the upper-left hand corner of the window
     Troubleshoot: have you selected your proper board and port? Is the Arduino plugged in? Have you double-checked your circuits?
@@ -216,11 +219,9 @@ There is also a `library`, which allows us to designate the specific tones in ou
 
 ##The Circuit
 
-Don't forget to unplug your Arduino as you wire your circuit! This keeps your computer safe. 
-
 ![Circuit Diagram](https://github.com/mckinniburgh/gc-phys-comp/blob/master/Images/BasicLED_bb.png)
 
-*This circuit was made from [Fritzing](http://fritzing.org/home/)*
+*This circuit was made using [Fritzing](http://fritzing.org/home/)*
 
 You'll take a wire from your *ground*, or the 5V slot on the Arduino board, to the (-) power rail of the breadboard. 
 
@@ -262,7 +263,27 @@ You have another type of resistor in your supply bag--give this one a shot and s
 
 #Activity: Add a Button!
 
-Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED or piezo on and off. 
+Now that we're more familiar with basic wiring, we'll add a button to our circuit so we can turn an LED (or piezo) on and off. 
+
+##The Circuit
+
+This is a fancier one! We're going to hook up the power rails on the breadboard through the ground and 5V pins so anything that we wire to those rails can be powered. We're also going to hook up both sides of the breadboard for the button that spans them. 
+
+![LED Button Diagram]()
+
+##The Code
+
+1. Go to `File --> Examples --> 02.Digital --> Button`
+
+2. Open the `Button Sketch` and check out the code. 
+
+3. In `void setup( )` we're going to initialize `pin 8` as our output for the LED instead of the built-in LED on pin 13. Change `const int ledPin =  13` to `const int ledPin =  8`.
+
+4. **Verify** your sketch with the check-mark in the upper-left hand corner of the window
+    Troubleshoot: have you selected your proper board and port? Is the Arduino plugged in? Have you double-checked your circuits?
+    
+5. **Upload** your sketch, and press the button to turn the LED on and off. 
+
 
 #Quick recap:
 
