@@ -52,11 +52,11 @@ Located in the GC Digital Scholarship Lab, Room 7414. Monday Maker Hours, worksh
 
 3. [Setting up Arduino](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#setting-up-arduino)
 
-4. [Activity: Arduino LED](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-led)
+4. [Activity: Arduino toneMelody](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-tonemelody)
 
-5. [LED Bonus Round: Using Resistors](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#led-bonus-round-using-resistors)
+5. [Activity: Arduino LED](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-led)
 
-6. [Activity: Arduino toneMelody](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-arduino-tonemelody)
+6. [LED Bonus Round: Using Resistors](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#led-bonus-round-using-resistors)
 
 7. [Activity: Add a Button!](https://github.com/mckinniburgh/gc-phys-comp/blob/master/IntroPhysCompArduino.md#activity-add-a-button)
 
@@ -78,7 +78,7 @@ _What separates a maker space from a production line (although some large-scale 
 
 +[Makerspace at U.Va](http://scholarslab.org/makerspace/) acts as an educational outreach environment that offers workshops, drop-in hours, and consultations designed to connect students with resources. 
 
-Antecedents to the university makerspace:
+Antecedents to the university maker space:
 
 [hackerspace](http://hackerspaces.org/): the maker space’s more programming-focused counterpart (or predecessor, depending on how you view it)
 
@@ -168,6 +168,41 @@ Choose `/dev/cu.usbmodem1411 (Arduino/Genuino Uno)`
 	
 
 Now you're ready to make circuits! 
+#Activity: Arduino toneMelody
+
+**Supplies**
+
++ Arduino
++ 2 wires
++ 1 piezo buzzer
++ Breadboard
+
+##The Circuit
+
+![Piezo Buzzer](https://github.com/mckinniburgh/gc-phys-comp/blob/master/Images/PiezoDiagram_bb.png)
+
+*This circuit was made from [Fritzing](http://fritzing.org/home/)*
+
+##The Code
+
+Arduino has ready-to-go code, which we'll use to get started today. You can open their examples and then edit the code as you like. 
+
+1. Go to `File --> Examples --> 02.Digital --> toneMelody`
+
+2. Open the `toneMelody` sketch and check out the code. 
+
+3. Notice the two main components of this sketch.
+
+`void setup( )` runs once and initializes the variables, pin assignments, and libraries in a sketch.  
+ 
+`void loop( )` repeats a procedure (like a blinking LED, which we'll try next).
+
+There is also a `library`, which allows us to designate the specific tones in our melody. 
+
+4. **Verify** your sketch with the check-mark in the upper-left hand corner of the window
+    Troubleshoot: have you selected your proper board and port? Is the Arduino plugged in? Have you double-checked your circuits?
+    
+5. **Upload** your sketch and listen to your song!
 
 #Activity: Arduino LED
 
@@ -179,7 +214,7 @@ Now you're ready to make circuits!
 + Breadboard
 + Resistor
 
-##**The Circuit**
+##The Circuit
 
 Don't forget to unplug your Arduino as you wire your circuit! This keeps your computer safe. 
 
@@ -197,7 +232,7 @@ Next, connect another wire to the *cathode* (short side) of the LED, and place t
 
 Especially if you're still getting used to using a breadboard, this overview is very helpful:[https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 
-##**The Code**
+##The Code
 
 Arduino has ready-to-go code, which we'll use to get started today. You can open their examples and then edit the code as you like. 
 
@@ -224,16 +259,6 @@ Resistors modulate the flow of electricity through a circuit by "resisting" the 
 Experiment with rewiring the circuit *without* the resistor and notice what happens. 
 
 You have another type of resistor in your supply bag--give this one a shot and see how it affects your circuit. 
-
-
-
-#Activity: Arduino toneMelody
-
-1. Go to `File --> Examples --> 02.Digital --> toneMelody`
-
-2. Open the `toneMelody` sketch and check out the code. 
- 
-3. In your supply kit, you'll find a small piezo buzzer. Wire the circuit using the piezo instead of the LED, using the same diagram above. 
 
 #Activity: Add a Button!
 
