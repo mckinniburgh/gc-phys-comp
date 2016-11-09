@@ -4,6 +4,8 @@ developed for:
 
 ##[Introduction to Physical Computing with Arduino Workshop](https://gcdi.commons.gc.cuny.edu/workshops/)
 
+##quick link: http://tinyurl.com/gc-arduino
+
 November 9th, 6:30-8:30pm
 
 Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
