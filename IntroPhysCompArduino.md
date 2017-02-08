@@ -1,7 +1,5 @@
 #Introduction to Physical Computing with Arduino
 
-developed for:
-
 ##[Introduction to Physical Computing with Arduino Workshop](https://gcdi.commons.gc.cuny.edu/workshops/)
 
 ##quick link: http://tinyurl.com/gc-arduino
