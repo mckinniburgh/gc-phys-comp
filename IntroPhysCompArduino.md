@@ -6,9 +6,10 @@ developed for:
 
 ##quick link: http://tinyurl.com/gc-arduino
 
-November 9th, 6:30-8:30pm
+February 8th, 2017
+as part of [NYCDH Week 2017](http://dhweek.nycdh.org/)
 
-Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
+Instructor: Mary Catherine Kinniburgh
 
 * Adapted from [A Super-Speedy Intro to Maker Basics with Arduino](https://github.com/mckinniburgh/QuickStartPhysComp), a tutorial designed for #dhpraxis2016.
 
@@ -32,7 +33,7 @@ Instructors: Mary Catherine Kinniburgh + Jojo Karlin!
 
 ####[Monday Maker Hours](https://gcdi.commons.gc.cuny.edu/monday-maker-hours/)
 
-Alternating Mondays, 2:00-4:00pm in Room 7414. Open lab time for experimenting, projects, prototyping, saying hello!
+Alternating Mondays, 4:00-6:00pm in Room 7414. Open lab time for experimenting, projects, prototyping, saying hello!
 
 ####[GC Maker Space](https://gcdi.commons.gc.cuny.edu/gc-maker-space/)
 
